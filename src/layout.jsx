@@ -15,13 +15,13 @@ import GradientTracking from "./components/ui/GradientTracking";
 import GooglesheetContext from "./hooks/useContext/contexts/googlesheet-context/GooglesheetContext";
 import NewsNoticeProvider from "./hooks/useContext/providers/googlesheet-provider/news-notice-provider";
 import SimpleSlider from "./components/ui/SimpleSlider";
-// import { AnimatedBackground } from "./components/ui/AnimatedBackground";
+import { AnimatedBackground } from "./components/ui/AnimatedBackground";
 
 export default function Layout() {
   return (
     <main className=" overflow-hidden min-h-screen">
       {/* Hero Section */}
-      {/* <AnimatedBackground /> */}
+      <AnimatedBackground />
 
       <header className="md:min-h-[50em] max-md:py-12 context grid place-content-center m-auto text-center px-[5%]">
         <div className=" flex flex-col place-content-center ">
