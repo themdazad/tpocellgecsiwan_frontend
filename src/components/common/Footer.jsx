@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <>
       <Divider />
-      <footer className="flex flex-wrap-reverse justify-center text-[14px] max-sm:text-center md:justify-between items-center py-4 px-[2%] max-sm:gap-4">
+      <footer className="flex flex-wrap-reverse justify-center text-[14px] max-sm:text-center md:justify-between items-center py-4 px-[5%] max-sm:gap-4">
         <p>
           2025 ©Copyright reserved.<br />
           Developed with <span className="text-red-600">❤</span> By {" "}

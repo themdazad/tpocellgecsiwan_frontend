@@ -6,7 +6,7 @@ import { FacultyInCharge } from "./FacultyInCharge";
 
 const ContactPage = () => {
   return (
-    <section className="max-w-[1920px] m-auto  md:px-[10%] px-[2%] gap-y-12 py-8 ">
+    <section className="max-w-[1920px] m-auto  md:px-[10%] px-[5%] gap-y-12 py-8 ">
       <div className="space-y-[80px]">
         <div className="qr_code max-w-[200px] m-auto">
           <a

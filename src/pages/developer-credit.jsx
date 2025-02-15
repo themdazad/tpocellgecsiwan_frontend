@@ -15,7 +15,7 @@ const DeveloperProfiles = [
 ]
 export const DeveloperCredit = () => {
     return (
-        <main className="max-w-[1920px] m-auto flex flex-col gap-[4em] py-[4em] min-h-screen px-[2%]">
+        <main className="max-w-[1920px] m-auto flex flex-col gap-[4em] py-[4em] min-h-screen px-[5%]">
             <h1 className="text-xl sm:text-3xl md:text-5xl font-bold text-center mb-[3rem]">Development Memebers</h1>
             {/* Content Writer */}
             <section>

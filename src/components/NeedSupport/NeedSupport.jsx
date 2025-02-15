@@ -6,7 +6,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 const NeedSupport = () => {
   return (
     <>
-      <section className="max-w-[1920px] text-center m-auto py-16 px-[2%] md:px-[10%] space-y-4">
+      <section className="max-w-[1920px] text-center m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-xl md:text-2xl font-semibold">
           Need Support? We&apos;re Here to Help
         </h2>

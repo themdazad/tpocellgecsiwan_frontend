@@ -7,7 +7,7 @@ import { Image } from "@heroui/react";
 const Programs = () => {
   return (
     <section className="py-12 bg-gray-500/20 min-h-screen">
-      <div className="max-w-[1920px] m-auto px-[2%]">
+      <div className="max-w-[1920px] m-auto px-[5%]">
         <div className="tittle-bar flex items-center mb-[4em] gap-6">
           <h1 className="tittle-bar-heading text-xl sm:text-2xl md:text-3xl text-nowrap font-bold">
             Upcoming Programs

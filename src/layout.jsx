@@ -23,7 +23,7 @@ export default function Layout() {
       {/* Hero Section */}
       {/* <AnimatedBackground /> */}
 
-      <header className="md:min-h-[50em] max-md:py-12 context grid place-content-center m-auto text-center px-[2%]">
+      <header className="md:min-h-[50em] max-md:py-12 context grid place-content-center m-auto text-center px-[5%]">
         <div className=" flex flex-col place-content-center ">
           <div className="grid justify-items-center max-sm:gap-[1em]">
             <motion.div
@@ -90,7 +90,7 @@ export default function Layout() {
 
       {/* Features  */}
       <section className="feature-card max-md:hidden my-[4em] ">
-        <div className="max-w-[1920px] m-auto rounded-3xl overflow-hidden px-[2%]">
+        <div className="max-w-[1920px] m-auto rounded-3xl overflow-hidden px-[5%]">
           <GradientTracking>
             <div className="features-container  bg-gray-500/10 py-[6em] px-[2em] rounded-3xl border hover:border-1 border-gray-500/20  hover:border-sky-500/50  transition-all duration-300  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="feature-card flex flex-col items-center gap-2 text-center">
@@ -191,7 +191,7 @@ export default function Layout() {
 
       {/* upcoming events and programs Section  */}
       <section className="py-12">
-        <div className="max-w-[1920px] m-auto  px-[2%]">
+        <div className="max-w-[1920px] m-auto  px-[5%]">
           <div className="tittle-bar flex items-center mb-[2rem] gap-6">
             <h1 className="tittle-bar-heading text-xl sm:text-2xl md:text-3xl text-nowrap font-bold">
               Latest Updates
@@ -226,7 +226,7 @@ function NewsNoticeArea() {
     }
   }, [programData]);
   return (
-    <div className="news-notice-container max-w-[1920px] m-auto px-[2%] grid md:grid-cols-2 gap-12 ">
+    <div className="news-notice-container max-w-[1920px] m-auto px-[5%] grid md:grid-cols-2 gap-12 ">
       {/* Images carousel  */}
       <SimpleSlider/>
       <div className="news-notice-area  border hover:border-1 border-gray-500/20  hover:border-sky-500/50 rounded-3xl  p-3 md:p-6 ">
@@ -310,7 +310,7 @@ export function FAQ() {
   const [accordionItems, setAccordionItems] = useState(faq_data);
 
   return (
-    <section className="max-w-[1920px] my-[6em] m-auto px-[2%] ">
+    <section className="max-w-[1920px] my-[6em] m-auto px-[5%] ">
       <h2 className="text-lg sm:text-2xl md:text-3xl text-center my-6 font-semibold">
         Frequently Asked Questions !
       </h2>
