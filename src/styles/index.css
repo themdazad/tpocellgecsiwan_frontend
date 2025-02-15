@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{box-sizing:border-box; padding: 0; margin: 0; }
+body{
+    margin:auto;    
+    max-width: 100%;
+   
+    font-optical-sizing: auto;
+    
+    font-family: 'SF Pro Display', sans-serif;
+  }
+
+h1,h2,h3,h4,h5,h6{
+  font-optical-sizing: auto;
+}
+
+/* to hide visiblity of scroll bar  */
+/* ::-webkit-scrollbar{
+  width: 0;
+} */
